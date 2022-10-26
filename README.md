@@ -41,3 +41,9 @@
 <br>
     
     npm install
+
+[Net Ninja Sass Tutorial]
+
+### [freeCodeCamp](https://www.youtube.com/watch?v=_a5j7KoflTs)
+
+### [KP @use and @forward video](https://www.youtube.com/watch?v=CR-a8upNjJ0)
