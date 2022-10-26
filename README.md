@@ -14,3 +14,7 @@ cmd line / npm run dev
 
 when ready to push into production
 cmd line / npm run build
+
+
+if you need to reset and reinstall node_modules
+cmd line / npm install
