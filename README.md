@@ -118,7 +118,7 @@
         )
     ),
 
-### Font size (values are based on $base-font set in variables)
+### Font size (values are based on $base-font-size set in variables)
 
     "font-size": (
         "prefix": "font",
