@@ -77,7 +77,7 @@
         "5": $base-padding * 8
         ),
 
-### Margin
+### Margin includes margin(m), ml(margin-left0 etc, mr, mt and mb with values 0-5
 
     "margin": (
         "prefix": "m",
@@ -90,3 +90,43 @@
         "5": $base-margin * 8
         ),
     ),
+
+### Border radius
+
+    "border-radius": (
+        "prefix": "br",
+        "values": (
+        "default": $base-border-radius,
+        "none": 0,
+        "xs": math.div($base-border-radius, 4),
+        "sm": math.div($base-border-radius, 2),
+        "lg": $base-border-radius * 2,
+        "full": 50%,
+        )
+    ),
+
+### Display
+
+    "display": (
+        "prefix": "display",
+        "values": (
+        "n": none,
+        "b": block,
+        "f": flex,
+        "i": inline,
+        "i-b": inline-block
+        )
+    ),
+
+### Font size (values are based on $base-font set in variables)
+
+    "font-size": (
+        "prefix": "font",
+        "values": (
+        "sm": $font-size-sm,
+        "md": $base-font-size,
+        "lg": $font-size-lg,
+        "xl": $font-size-xl,
+        "xxl": $font-size-xxl
+        )
+    )
