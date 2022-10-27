@@ -1,4 +1,5 @@
 # [Sass:Documentation](https://sass-lang.com/documentation/)
+# [Markdown Guide](https://www.markdownguide.org/)
 
 # To Begin This Project
 
@@ -42,8 +43,50 @@
     
     npm install
 
-[Net Ninja Sass Tutorial]
+### [Net Ninja Sass Tutorial](https://www.youtube.com/watch?v=_kqN4hl9bGc)
 
 ### [freeCodeCamp](https://www.youtube.com/watch?v=_a5j7KoflTs)
 
 ### [KP @use and @forward video](https://www.youtube.com/watch?v=CR-a8upNjJ0)
+
+# Components Incude
+
+1. Badges | .badge - options badge-primary badge-secondary badge-error badge-info
+
+        `.badge {
+        border-radius: 80px;
+        background-color: #f6c31c;
+        padding: 0.1875rem 0.375rem;
+        font-size: 0.75rem;
+        font-weight: normal;
+        }`
+
+
+## Utilities
+
+### Paddng includes padding(p), padding-left(pl) etc, pr, pt and pb with values 0-5
+
+    "padding": (
+        "prefix": "p",
+        "values": (
+        "0": 0,
+        "1": $base-padding,
+        "2": $base-padding * 2,
+        "3": $base-padding * 4,
+        "4": $base-padding * 6,
+        "5": $base-padding * 8
+        ),
+
+### Margin
+
+    "margin": (
+        "prefix": "m",
+        "values": (
+        "0": 0,
+        "1": $base-margin,
+        "2": $base-margin * 2,
+        "3": $base-margin * 4,
+        "4": $base-margin * 6,
+        "5": $base-margin * 8
+        ),
+    ),
