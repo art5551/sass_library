@@ -18,6 +18,10 @@
 
 6. Install parcel-bundler and save to json file / npm install parcel-bundler -save-dev
 
+### Parcel Bundler Documentation
+
+## [Parceljs.org](https://parceljs.org/)
+
 <br>
 
 ### Add following to package.json script:
