@@ -47,12 +47,11 @@
   &__burger {
     position: absolute;
     right: 0;
-    top: .5rem;
+    top: 0.5rem;
     width: 28px;
     height: 3px;
     background: white;
     @include transition-ease;
-  
   
 
     &::before {
@@ -85,7 +84,6 @@
       &::after {
         width: 28px;
         transform: rotate(-45deg) translate(3px, -7px);
-
       }
     }
   }
@@ -105,13 +103,12 @@
 
   .menu-nav {
     display: flex;
-    flex-direction:column;
+    flex-direction:column wrap;
     align-items: center;
     justify-content: center;
     height: 100vh;
     overflow: hidden;
     background: black;
-    text-transform: uppercase;
     list-style-type: none;
     padding-right: 1rem;
     transform: translateY(-100%);
@@ -136,8 +133,11 @@
 
     &__link {
       display: inline-block;
-      padding: 2rem;
-      padding-right: 2rem;
+      font-size: 2rem;
+      text-transform: uppercase;
+      padding: 2rem 0;
+      font-weight: 300;
+      @include transition-ease;
 
       &:hover {
         color: gray;
